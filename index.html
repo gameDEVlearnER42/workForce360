@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage</title>
+</head>
+<body>
+    <h1>Welcome to My Website</h1>
+    
+    <button onclick="changeText()">Click Me!</button>
+    <p id="text">This text will change when you click the button.</p>
+    
+    <p>This is my first webpage using HTML!</p>
+    
+    <form action="#" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        
+        <form onsubmit="return validateForm()" action="#" method="POST">
+    
+        <button type="submit">Send</button>
+    </form>
+    <br>
+    <img src="https://www.we-love-pets.com/files/madison_vet/puppies-kittens.jpg" alt="Sample Image" width="200"px>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Nya9ZJXFUVA?si=EMXelxGfxA7tZ6IG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>
